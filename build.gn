@@ -1,0 +1,6 @@
+group("all") {
+    deps = [
+        "//hello:hello",
+        "//base:base_static"
+    ]
+}

@@ -1,0 +1,8 @@
+executable("hello") {
+  sources = [
+    "main.cc",
+  ]
+  deps=[
+    "//base"
+  ]
+}
