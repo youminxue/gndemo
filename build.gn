@@ -1,6 +1,7 @@
 group("all") {
     deps = [
         "//hello:hello",
-        "//base:base_static"
+        "//base:base_static",
+        "//net:quic_server"
     ]
 }

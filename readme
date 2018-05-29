@@ -2,3 +2,8 @@ gn desc out/Debug net 查看项目的依赖
 gn ls out/Debug net 
 gn gen out/Debug
 ninja -C out/Debug base
+
+2790
+5590
+url 117
+testing/libfuzzer/proto 40
