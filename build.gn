@@ -1,6 +1,6 @@
 group("all") {
     deps = [
-        "//hello:hello",
+        "//hello:client",
         "//base:base_static",
         "//net:quic_server"
     ]
