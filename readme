@@ -1,3 +1,18 @@
+mkdir /tmp/quic-data
+cd /tmp/quic-data
+wget -p --save-headers https://www.example.org
+----------------------------------------------------------
+Remove (if it exists): "Transfer-Encoding: chunked"
+Remove (if it exists): "Alternate-Protocol: ..."
+Add: X-Original-Url: https://www.example.org/
+---------------------------------------------------------
+cd net/tools/quic/certs
+./generate-certs.sh
+cd -
+
+mac 钥匙串访问-》文件-》导入项目-》刚刚生成的2048-sha256-root.pem
+删除搜索QUIC
+
 gn desc out/Debug net 查看项目的依赖
 gn ls out/Debug net 
 gn gen out/Debug

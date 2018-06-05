@@ -1,0 +1,2 @@
+#/bin/bash
+./out/Debug/server --port=12345 --quic_response_cache_dir=/Users/summer/Downloads/workspace/c++workspace/test/gndemo/tmp/www.example.org --certificate_file=net/tools/quic/certs/out/leaf_cert.pem --key_file=net/tools/quic/certs/out/leaf_cert.pkcs8

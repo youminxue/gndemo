@@ -40,11 +40,8 @@ using std::cout;
 using std::cerr;
 using std::endl;
 using std::string;
-
-// The IP or hostname the quic client will connect to.
-string FLAGS_host = "";
-// The port to connect to.
-int32_t FLAGS_port = 0;
+string FLAGS_host = "127.0.0.1";
+int32_t FLAGS_port = 12345;
 // If set, send a POST with this body.
 string FLAGS_body = "";
 // If set, contents are converted from hex to ascii, before sending as body of

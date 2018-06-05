@@ -12,6 +12,15 @@ executable("client") {
   ]
 }
 
+executable("exitdemo") {
+  sources = [
+    "exitdemo.cc",
+  ]
+  deps=[
+    "//base"
+  ]
+}
+
 executable("server") {
   sources = [
     "server.cc",
